@@ -1,0 +1,136 @@
+
+
+/*site-CVMC-style-sheet*/
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  /*font-family: Roboto;*/
+}
+
+
+.bg-dark {
+    background-color: #151515 !important;
+    color: #fff;
+}
+
+ /*---*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.labelleftpadding {
+  padding-left: 10px;
+}
+
+
+.fields-set-padding-top {
+  padding-top: 20px; 
+}
+
+
+
+.calen-label {
+  padding: 0px 10px 0px 10px; 
+  color: #939BA2;
+}
+
+
+nav ul {
+  float: right;
+  margin-right: 0px; 
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px 0px;
+}
+
+nav ul li a {
+
+}
+
+a.active, a:hover{
+  /*background: #0275D8;
+  transition: .01s;*/
+}
+
+/*.jumbotron {
+  background: #000;
+  margin-bottom: 0px;
+}*/
+
+.herodiv {
+  background: #0d0d0d;
+  color: #fff;
+  padding-left: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 0px;
+  
+}
+
+.section-ctadiv {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%);
+}
+
+.btn-cta {
+  background-color: #fff;
+  color: #5789ce;
+  border-color: #dedfdf;
+}
+
+.btn-cta:hover {
+  background-color: #e6e6e6;
+  color: #5789ce;
+  border-color: #dedfdf;
+}
+
+.feature-block {
+  background: #32b6ba;
+  padding: 20px;
+}
+
+.about-block {
+  background: #b1cbee;
+  padding: 40px 100px;
+}
+
+ /*---*/
+ .footer-brand-lead{
+
+ }
+ .footer-contact-lead{
+
+ }

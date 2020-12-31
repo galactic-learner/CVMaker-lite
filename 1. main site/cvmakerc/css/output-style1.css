@@ -1,0 +1,310 @@
+
+/*CVMC-site-style-sheet-1*/
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');*/
+
+
+/*apply font*/
+/*body{
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	}
+
+/*--- --- ---*/
+.wrapper {
+
+}
+
+.article {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	/*box-shadow: 0px 20px 80px 20px rgba(0,0,0,0.2), 0px 20px 80px 20px rgba(0, 0, 0, 0.01);*/
+	box-shadow: 0px 20px 80px 20px rgba(0,0,100,0.2), 0px 20px 80px 20px rgba(0,0,100, 0.01);
+
+}
+
+.main-wrapper{
+	margin: 60px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.flex-container-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-container-row-striped {
+	background: #F2F2F2;
+	/*background: #89D1FF;*/
+	display: flex;
+	flex-direction: row;
+}
+
+/*--- ---*/
+.cv-heading{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+/*--- name-image-card-section ---*/
+.name-image-card-section{
+
+}
+
+.name-contact-div{
+	width: 80%;
+	padding-left: 25px;
+}
+.name-contact-name{
+
+}
+.name-contact-title{
+
+}
+.image-div{
+	display: grid;
+	align-content: center;
+	padding-right: 25px;
+}
+img{
+	border-radius: 15%;
+}
+
+
+/*--- ---*/
+.section{
+ 	margin-top: 25px;
+}
+.section-heading{
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+.last-section{
+	/*padding-bottom: 100px;*/
+}
+
+
+/*--- obj section ---*/
+.objective-section{
+
+}
+.summary{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/*--- work & experience section ---*/
+.work-experience-section{
+
+}
+.experience-div{
+	padding-left: 50px;
+}
+.upper-row{
+	padding-right: 50px;
+}
+.lower-row{
+
+}
+.details{
+	padding-right: 50px;
+}
+/*--- projects section ---*/
+.projects-section{
+
+}
+.flex-column-projects{
+	padding-left: 50px;
+}
+.project-title-div{
+	text-align: left;
+}
+.project-title{
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
+}
+.project-description-div{
+	padding-right: 50px;
+}
+.project-description{
+	padding-right: 50px;
+}
+
+/*--- skills section ---*/
+.skills-section{
+
+}
+.skills-heading{
+
+}
+.skills-div{
+	padding-left: 50px;
+}
+.skills-ul{
+
+}
+.skills-li{
+	padding-top: 10px;
+}
+/*.skills-li-last{
+	padding-bottom: 10px;
+}*/
+
+/*--- education section ---*/
+.education-section{
+
+}
+.flex-column-education{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.education-title-div{
+	text-align: left;
+	width: 40%;
+	/*text-align: center;*/
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.education-title{
+	font-weight: bold;
+	display: inline-block;
+	
+}
+.education-school-location-div{
+	text-align: left;
+	width: 40%;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.education-school-location{
+
+}
+.education-year-div{
+	text-align: left;
+	width: 20%;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.education-year{
+
+}
+.education-gpa-div{
+	text-align: left;
+	width: 20%;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.education-gpa{
+
+}
+/*--- languages section ---*/
+.languages-section{
+
+}
+.languages-heading{
+
+}
+.languages-div{
+	padding-left: 50px;
+}
+.languages-ul{
+
+}
+.languages-li{
+
+}
+/*--- interests section ---*/
+.interests-section{
+
+}
+.interests-heading{
+
+}
+.interests-div{
+	padding-left: 50px;
+}
+.interests-ul{
+
+}
+.interests-li{
+
+}
+/*--- ref section ---*/
+.references-section{
+
+}
+.references-div{
+	padding-left: 50px;
+	/*text-align: center;*/
+	width: -moz-available;
+	/*width: 50%;*/
+}
+.ref-ul{
+
+}
+
+.reference-note {
+
+}
+.ref-name {
+
+}
+.ref-designation {
+
+}
+.ref-organization {
+
+}
+.ref-contact {
+
+}
+
+
+ /*--- cv-alert-div style --- */
+ .cv-alert-div {
+	background: #151515;
+	color: white;
+	border-radius: 5px;
+ }
+
+ .alert-cv-id{
+ 	color: #0074E8;
+ }
+
+
+ /*print only rules*/
+ @media print {
+
+ 	/*#id-to-skip-in-print {
+ 		display: none !important; 
+ 	}*/
+
+ 	#alert-div, #navigation-btns-div {
+ 		display: none !important; 
+ 	}
+ }
